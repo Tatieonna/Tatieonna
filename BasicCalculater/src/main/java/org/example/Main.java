@@ -12,7 +12,7 @@ public class Main {
         double secondNumber = scanner.nextDouble();
 
         System.out.println("Do you want to A, S, M, or D ?");
-        scanner.nextLine();
+        scanner.nextLine(); // prevent the scanner from reading \n from the last input
         String userOperation = scanner.nextLine();
 
         if (userOperation.equalsIgnoreCase("A")) {
